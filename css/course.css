@@ -1,0 +1,12 @@
+@charset 'utf-8';
+
+* {margin:0; padding:0; box-sizing:border-box;}
+html,body {font-family:'나눔고딕';}
+img {display:block; max-width:100%;}
+
+#course {width:750px; border:1px solid red; margin:auto; margin-top:50px;}
+#course>section {border:2px solid blue; padding-top:30px;}
+
+#course img.en {transform:translateY(5px); z-index:-1; position:relative;}
+
+#course h2 {font-size:1.15rem; font-weight:600; color:#333;}
